@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { GeminiService, ModelInfo } from './services/geminiService';
-import { PdfProcessor, ProcessResult } from './services/pdfProcessor';
-import { WordExporter } from './services/wordExporter';
+import { GeminiService, ModelInfo } from '../services/geminiService';
+import { PdfProcessor, ProcessResult } from '../services/pdfProcessor';
+import { WordExporter } from '../services/wordExporter';
 
 declare global {
     interface Window {
